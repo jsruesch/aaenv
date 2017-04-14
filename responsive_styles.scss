@@ -7,11 +7,17 @@
 @import 'mixins';
 
 /*-----------------  Desktops  -----------------*/
-@media screen and (max-width:635px){  }
+@media screen and (max-width:635px){
+  .nav-menu{ display: none; }
+  .mobile-dropdown{ display: block !important; }
+}
 @media (min-width: 635px) and (max-width:770px){  }
 @media (min-device-width: 519px) and (max-devide-width:770px){  }
 /* End Desktops */
 
 /*-----------------  Smartphones  -----------------*/
-@media (max-device-width: 519px) {  }
+@media (max-device-width: 519px) {
+  .nav-menu{ display: none; }
+  .mobile-dropdown{ display: block; }
+}
 /* End Smartphones */

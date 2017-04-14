@@ -1,15 +1,15 @@
 
-<div class="container-fluid nav-full-container">
+<div class="container-fluid bg-navy nav-full-container">
   <div class="container">
     <div class="row">
-      <!-- Nav Logo 
+      <!-- Nav Logo
       <div class="nav-logo">
         <a href="http://gearlearning.org"><img src="<?php echo get_template_directory_uri(); ?>/img/gear-logo-text.svg" class="wow fadeIn"/></a>
       </div> END: Nav Logo -->
     <!--
       BEGIN: Full Screen Navigation
     -->
-    <div class-"row">
+    <div class="row">
       <div class="nav-menu">
         <nav>
           <ul>
@@ -23,9 +23,15 @@
       BEGIN: Mobile Navigation
     -->
       <div class="mobile-dropdown">
-        <button class="cstbtn navbtn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-          <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+        <div class="row">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
+        </div>
+
         <div class="collapse" id="collapseExample">
           <div class="well">
             <nav>

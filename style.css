@@ -714,8 +714,20 @@ h1, h2, h3, h4, h5, p {
   .pad60 {
     padding: 35px !important; } }
 /*-----------------  Desktops  -----------------*/
+@media screen and (max-width: 635px) {
+  .nav-menu {
+    display: none; }
+
+  .mobile-dropdown {
+    display: block !important; } }
 /* End Desktops */
 /*-----------------  Smartphones  -----------------*/
+@media (max-device-width: 519px) {
+  .nav-menu {
+    display: none; }
+
+  .mobile-dropdown {
+    display: block; } }
 /* End Smartphones */
 /* END: Imports */
 /**
@@ -799,11 +811,64 @@ h1, h2, h3, h4, h5, h6 {
  * Navigation
  * =========================================
  */
+.mobile-dropdown {
+  width: 100%;
+  float: left;
+  display: none; }
+  .mobile-dropdown .well {
+    width: 100%;
+    float: left;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    background: #000d1f; }
+  .mobile-dropdown .navbar-toggle {
+    padding: 15px 10px; }
+  .mobile-dropdown .collapse, .mobile-dropdown .collapsing {
+    width: 100%;
+    float: left; }
+    .mobile-dropdown .collapse li a, .mobile-dropdown .collapsing li a {
+      width: 100%;
+      float: left;
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      padding: 20px;
+      border-bottom: 1px solid black;
+      font-family: 'Fjalla One', sans-serif !important;
+      font-weight: 700 !important;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #ffffff; }
+      .mobile-dropdown .collapse li a:hover, .mobile-dropdown .collapsing li a:hover {
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+        background: #002660;
+        text-decoration: none; }
+
+.icon-bar {
+  background: #ffffff;
+  height: 3px !important;
+  width: 30px !important; }
+
 .nav-menu {
   float: right; }
+  .nav-menu nav ul {
+    margin-bottom: 0;
+    margin-top: 0; }
   .nav-menu li {
     display: inline; }
     .nav-menu li a {
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      float: left;
       font-family: 'Fjalla One', sans-serif !important;
       font-weight: 700 !important;
       text-transform: uppercase;
@@ -811,7 +876,11 @@ h1, h2, h3, h4, h5, h6 {
       color: #ffffff;
       padding: 20px 15px; }
       .nav-menu li a:hover {
-        background: #002660;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+        background: #000d1f;
         text-decoration: none; }
 
 /* END: Navigation */

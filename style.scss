@@ -108,14 +108,68 @@ p{
   * =========================================
   */
 
+.mobile-dropdown{
+  @include full;
+  display: none;
+
+  .well{
+    @include full;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    background: $dblue;
+  }
+
+  .navbar-toggle{
+    padding: 15px 10px; 
+  }
+
+  .collapse,.collapsing{
+    @include full;
+
+    li{
+      a{
+        @include full;
+        @include transition;
+        padding: 20px;
+        border-bottom: 1px solid black;
+
+        font-family: 'Fjalla One', sans-serif !important;
+        font-weight: 700 !important;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: $white;
+
+        &:hover{
+          @include transition;
+          background: $navy;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+.icon-bar{
+  background: $white;
+  height: 3px !important;
+  width: 30px !important;
+}
 .nav-menu{
   float: right;
+
+  nav ul{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 
   li{
     display: inline;
 
-
     a{
+      @include transition;
+      float:left;
       font-family: 'Fjalla One', sans-serif !important;
       font-weight: 700 !important;
       text-transform: uppercase;
@@ -125,7 +179,8 @@ p{
       padding: 20px 15px;
 
       &:hover{
-        background: $navy;
+        @include transition;
+        background: $dblue;
         text-decoration: none;
       }
     }
