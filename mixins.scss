@@ -27,7 +27,12 @@
  * =========================================
  */
 
- // $green:   #87b840;
+ $navy:   #002660;
+ $dblue:  #000d1f;
+ $lblue:  #b0d0e5;
+ $dgrey:  #313131;
+ $lgrey:  #efefef;
+ $white:  #ffffff;
 
  /* END Variables */
 
@@ -37,10 +42,20 @@
  * Setup Classes
  * =========================================
  */
- //
- // .text-green{   color: $green !important; }
- //
- // .bg-green{   background: $green; }
+ .text-navy{    color: $navy !important; }
+ .text-dblue{   color: $dblue !important; }
+ .text-lblue{   color: $lblue !important; }
+ .text-dgrey{   color: $dgrey !important; }
+ .text-lgrey{   color: $lgrey !important; }
+ .text-white{   color: $white !important; }
+
+
+ .bg-navy{    background: $navy !important; }
+ .bg-dblue{   background: $dblue !important; }
+ .bg-lblue{   background: $lblue !important; }
+ .bg-dgrey{   background: $dgrey !important; }
+ .bg-lgrey{   background: $lgrey !important; }
+ .bg-white{   background: $white !important; }
 
 
  /* Bootstrap Overrides */
