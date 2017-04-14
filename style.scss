@@ -1,0 +1,117 @@
+/*
+Theme Name: Jweb WP Blank Theme
+Theme URI: n/a
+Description: Blank Theme
+Author: Jake Ruesch
+Author URI: http://www.jsruesch.com
+Template: jwebwp
+Version: 1
+*/
+
+
+/**
+ * =========================================
+ * Imports
+ * =========================================
+ */
+
+@import 'mixins';
+@import 'responsive_styles';
+
+/* END: Imports */
+
+/**
+ * =========================================
+ * Global Styles
+ * =========================================
+ */
+
+ * {
+     margin:0; padding:0;
+
+     -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+             box-sizing: border-box;
+ }
+
+ html{
+   overflow: scroll;
+   min-height: 100%;
+   position: relative;
+   width: 100%;
+ }
+
+ body{  }
+
+ a{  }
+
+ p{  }
+
+ ul{ list-style:none; }
+
+ hr{  }
+
+ h1, h2, h3, h4, h5, h6{
+
+ }
+
+ table tr{  }
+
+ ::selection{  }
+
+ /* END: Global Styles */
+
+
+ /**
+  * =========================================
+  * Utility Classes
+  * =========================================
+  */
+
+ .clear{ clear: both; }
+ .left{  float: left; }
+ .right{ float: right; }
+ /* Five Columns Setup */
+ .col-xs-15,
+ .col-sm-15,
+ .col-md-15,
+ .col-lg-15 {
+     position: relative;
+     min-height: 1px;
+     padding-right: 10px;
+     padding-left: 10px;
+ }
+ .col-xs-15{
+   width: 20%;
+   float: left;
+ }
+
+ /* END: Utility Classes */
+
+ /**
+  * =========================================
+  * Navigation
+  * =========================================
+  */
+
+
+/* END: Navigation */
+
+
+ /**
+  * =========================================
+  * Elements
+  * =========================================
+  */
+
+/* END: Elements */
+
+
+/**
+ * =========================================
+ * Footer
+ * =========================================
+ */
+
+
+/* END: Footer */
