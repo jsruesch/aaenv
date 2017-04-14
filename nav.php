@@ -2,10 +2,10 @@
 <div class="container-fluid nav-full-container">
   <div class="container">
     <div class="row">
-      <!-- Nav Logo -->
+      <!-- Nav Logo 
       <div class="nav-logo">
         <a href="http://gearlearning.org"><img src="<?php echo get_template_directory_uri(); ?>/img/gear-logo-text.svg" class="wow fadeIn"/></a>
-      </div><!-- END: Nav Logo -->
+      </div> END: Nav Logo -->
     <!--
       BEGIN: Full Screen Navigation
     -->
