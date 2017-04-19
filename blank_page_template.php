@@ -12,7 +12,6 @@
 
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   			<div class="post" id="post-<?php the_ID(); ?>">
-  				<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
 
   				<div class="row bg-lgrey pad60">
 
