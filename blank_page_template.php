@@ -9,9 +9,21 @@
 
 <div class="container-fluid">
   <div class="container">
-    <div class="row bg-lgrey pad60">
-      <h2 class="text-navy"><?php the_title(); ?></h2>
-      <p class="text-dgrey mar20-top"><?php the_content(); ?></p> 
+
+      <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+  			<div class="post" id="post-<?php the_ID(); ?>">
+  				<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
+
+  				<div class="row bg-lgrey pad60">
+
+            <h2 class="text-navy"><?php the_title(); ?></h2>
+            <p class="text-dgrey mar20-top"><?php the_content(); ?></p>
+
+  				</div>
+
+  				<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+  			</div>
+  			<?php endwhile; endif; ?>
     </div>
   </div>
 </div>
