@@ -7,6 +7,21 @@
 
 <?php get_header(); ?>
 
+<!-- Hero -->
+<div class="container-fluid hero-bg">
+  <div class="container">
+    <div class="hero-logo">
+      <img class="center-block" src="<?php echo get_template_directory_uri(); ?>/img/temp-logo.svg" />
+    </div>
+  </div>
+</div><!-- END: Hero -->
+
+<div class="container-fluid">
+  <div class="container">
+    
+  </div>
+</div>
+
 <div class="container-fluid">
   <div class="container">
     <!-- Mission -->

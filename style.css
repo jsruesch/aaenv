@@ -805,6 +805,9 @@ h1, h2, h3, h4, h5, h6 {
 .text-large {
   font-size: 25px; }
 
+.text-sm {
+  font-size: 13px; }
+
 /* END: Utility Classes */
 /**
  * =========================================
@@ -889,12 +892,30 @@ h1, h2, h3, h4, h5, h6 {
  * Elements
  * =========================================
  */
+.hero-bg {
+  width: 100%;
+  float: left;
+  height: 350px;
+  background: url(img/hero-bg.png) 50% 0%; }
+  .hero-bg .hero-logo {
+    height: 350px; }
+    .hero-bg .hero-logo img {
+      max-width: 100%;
+      padding: 60px;
+      height: 100%; }
+
 /* END: Elements */
 /**
  * =========================================
  * Footer
  * =========================================
  */
+.footer-logo {
+  height: 125px;
+  max-width: 100%; }
+  .footer-logo img {
+    height: 100%; }
+
 /* END: Footer */
 
 /*# sourceMappingURL=style.css.map */
