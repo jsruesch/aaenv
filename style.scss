@@ -109,6 +109,22 @@ p{
   * =========================================
   */
 
+.nav-container{
+  position: relative;
+}
+.nav-logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 65px;
+  width: 150px;
+  float:left;
+
+  img{
+    padding: 10px;
+    height: 100%;
+  }
+}
 .mobile-dropdown{
   @include full;
   display: none;

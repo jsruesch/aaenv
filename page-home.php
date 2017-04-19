@@ -16,12 +16,13 @@
   </div>
 </div><!-- END: Hero -->
 
+<!-- This is here to fix body content float issue -->
 <div class="container-fluid">
   <div class="container">
-    
   </div>
 </div>
 
+<!-- Main Content -->
 <div class="container-fluid">
   <div class="container">
     <!-- Mission -->
@@ -65,5 +66,5 @@
     </div><!-- /.row -->
   </div><!-- /.container -->
 </div><!-- /.container-fluid -->
-
+<!-- END: Main Content -->
 <?php get_footer(); ?>

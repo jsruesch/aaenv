@@ -814,6 +814,20 @@ h1, h2, h3, h4, h5, h6 {
  * Navigation
  * =========================================
  */
+.nav-container {
+  position: relative; }
+
+.nav-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 65px;
+  width: 150px;
+  float: left; }
+  .nav-logo img {
+    padding: 10px;
+    height: 100%; }
+
 .mobile-dropdown {
   width: 100%;
   float: left;
