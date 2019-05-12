@@ -17,7 +17,7 @@
 			</div>
 			<div class="row">
 				<p class="text-lblue text-sm text-center">
-					Copyright 2017 A&A Environmental Services, All rights reserved.
+					Copyright 2019 A&A Environmental Services, All rights reserved.
 				</p>
 			</div>
 		</div>
